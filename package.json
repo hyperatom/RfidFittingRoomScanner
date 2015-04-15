@@ -1,0 +1,14 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "RFID device driver for scanning tags and interfacing with the API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "sudo node index.js"
+  },
+  "author": "Adam Barrell",
+  "license": "ISC",
+  "dependencies": {
+    "node-hid": "^0.3.2"
+  }
+}
