@@ -9,6 +9,7 @@
   "author": "Adam Barrell",
   "license": "ISC",
   "dependencies": {
-    "node-hid": "^0.3.2"
+    "node-hid": "^0.3.2",
+    "serialport": "^1.6.3"
   }
 }
