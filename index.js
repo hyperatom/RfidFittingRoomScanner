@@ -8,7 +8,7 @@ var deviceId = 'USB_4242_e131_14100000',
     cardId = '';
 
 function productScanned(uid) {
-    http.post(API_SET_RFID, { id: uid });
+    http.post(API_SET_RFID).form({ id: uid });
     console.log('UID:', uid);
     cardId = '';
 }
